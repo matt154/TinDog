@@ -31,6 +31,10 @@ h3{
     font-size: 1.5rem;
 }
 
+p{
+    color: #8f8f8f;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -89,9 +93,7 @@ h3{
     color: #ff4c68;
 }
 
-.features-text{
-    color: #8f8f8f;
-}
+
 
 /* Testimonials Section */
 
@@ -145,4 +147,13 @@ h3{
         position: static;
         transform: rotate(0deg);
     }
+}
+
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 3% 15%;
 }
