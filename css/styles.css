@@ -101,8 +101,6 @@ h3{
     color: white;
 }
 
-
-
 .testimonials-img{
     width: 10%;
     border-radius: 100%;
@@ -138,3 +136,13 @@ h3{
     padding: 3% 2%;;
 }
 
+@media (max-width: 991px)
+{
+    #title{text-align: center;}
+
+    .title-img{
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+    }
+}
