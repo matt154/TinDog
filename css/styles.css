@@ -12,11 +12,6 @@ h6 {
     font-weight: 700;
 }
 
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 h3 {
     font-size: 1.5rem;
 }
@@ -31,6 +26,11 @@ p {
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
     line-height: 1.5;
 }
 
@@ -113,6 +113,11 @@ p {
     color: white;
 }
 
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 .testimonials-img {
     width: 10%;
     border-radius: 100%;
@@ -143,6 +148,11 @@ p {
 #pricing {
     padding: 100px;
     text-align: center;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
