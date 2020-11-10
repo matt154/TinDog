@@ -1,5 +1,6 @@
 body {
     font-family: "Montserrat";
+    text-align: center;
 }
 
 h1,
@@ -10,10 +11,6 @@ h5,
 h6 {
     font-family: 'Montserrat';
     font-weight: 700;
-}
-
-h3 {
-    font-size: 1.5rem;
 }
 
 p {
@@ -29,19 +26,20 @@ p {
     line-height: 1.5;
 }
 
-.section-heading{
+.section-heading {
     font-size: 3rem;
     line-height: 1.5;
 }
 
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
+/* Containers */
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
+
+
+
+
 
 
 
@@ -72,6 +70,18 @@ p {
     margin: 5% 3% 5% 0%;
 }
 
+/* Title section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
 /* Title image */
 
 .title-img {
@@ -84,13 +94,15 @@ p {
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
     background-color: white;
     position: relative;
 }
 
+.feature-title {
+    font-size: 1.5rem;
+}
+
 .feature {
-    text-align: center;
     padding: 3%;
 }
 
@@ -108,12 +120,11 @@ p {
 /* Testimonials Section */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
     color: white;
 }
 
-.testimonial-text{
+.testimonial-text {
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -128,13 +139,10 @@ p {
     padding: 0%;
 }
 
-.carousel-item {
-    padding: 7% 15%;
-}
+.carousel-item {}
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -147,10 +155,9 @@ p {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
-.price-text{
+.price-text {
     font-size: 3rem;
     line-height: 1.5;
 }
@@ -164,25 +171,11 @@ p {
 
 #cta {
     background-color: #ff4c68;
-    text-align: center;
     color: white;
-    padding: 7% 15%;
 }
 
-.cta-heading {
-    font-family: "Montserrat";
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
 
 /* footer section */
-
-
-#footer {
-    text-align: center;
-    padding: 7% 15%;
-}
 
 .social-icon {
     padding: 20px 10px;
