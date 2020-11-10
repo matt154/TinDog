@@ -157,3 +157,15 @@ p{
     color: white;
     padding: 3% 15%;
 }
+
+/* footer section */
+
+
+#footer{
+    text-align: center;
+}
+#footer i{
+    margin: 100px 20px 30px;
+}
+
+
