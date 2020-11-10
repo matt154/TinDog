@@ -138,6 +138,32 @@ p{
     padding: 3% 2%;;
 }
 
+/* cta section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* footer section */
+
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.social-icon{
+    padding: 20px 10px;
+}
+
 @media (max-width: 991px)
 {
     #title{text-align: center;}
@@ -148,24 +174,3 @@ p{
         transform: rotate(0deg);
     }
 }
-
-/* cta section */
-
-#cta{
-    background-color: #ff4c68;
-    text-align: center;
-    color: white;
-    padding: 3% 15%;
-}
-
-/* footer section */
-
-
-#footer{
-    text-align: center;
-}
-#footer i{
-    margin: 100px 20px 30px;
-}
-
-
